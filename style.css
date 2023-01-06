@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* header style */
+
+.header-hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/banner/banner1.png);
+    background-size: cover;
+    background-position: center;
+
+    }
+
+.header-content{
+      position: relative;
+      top: 30%;
+      right: 8%;
+      text-align: right;
+      
+}
+.header-title{
+  font-size: 60px;
+}
+.header-description{
+ font-size: 15px;
+}
+/* button style */
+.button{
+    background-color: rgb(148, 148, 86) ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 7px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px; 
+
+}
+
+/* person section style */
+
+
+.person{
+    color: rgb(59, 87, 78);
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px ;
+    
+ 
+}
+ ul{
+    list-style: square;
+
+ }
+/* plansection */
+
+.plan-hade{
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+}
+
+.plan{
+    display: flex;
+    text-align: center;
+    justify-content:center ;
+    margin: 10px 70px;
+    gap: 130px;
+    padding: 60px;
+
+}
+ .plan-title{
+    
+    font-size: 30px;
+    color: rgb(31, 31, 32);
+    
+ }
+ .plan-desc{
+    font-size: 15px;
+ }
