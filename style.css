@@ -4,6 +4,24 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* nav bar */
+
+.nav-title {
+    padding-top: 19px;
+    font-size: 40px;
+}
+
+.nav-style{
+    color: rgb(236, 7, 7);
+}
+nav {
+     display: flex;
+    padding-bottom: 20px;
+    justify-content: space-around
+    
+}
+
+    
 /* header style */
 
 .header-hero{
@@ -118,6 +136,7 @@
  }
 
  /* footer style */
+
  .fotter{
     display: flex;
     
@@ -142,13 +161,13 @@
     font-size: 12px;
  }
  input{
-    border: 2px;
-    margin-top: 14px;
+    margin-top: 20px;
     width: 100%;
-    border: 2px solid;
-    padding: 10px 30px;
+    border: 1px solid white;
+    padding: 15px 35px;
     border-radius: 5px;
-    color: black;
+    background: rgb(7, 7, 7) ;
+    
  }
  .social-icon ,a {
     text-decoration: none;
