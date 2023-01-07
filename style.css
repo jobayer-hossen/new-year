@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header style */
@@ -29,7 +30,7 @@
 }
 /* button style */
 .button{
-    background-color: rgb(148, 148, 86) ;
+    background-color: rgb(219, 23, 23) ;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -52,7 +53,7 @@
     align-items: center;
     padding: 0 10px ;
     justify-content: space-around;
-    
+    background-image: -o-linear-gradient(black);
     
  
 }
@@ -91,17 +92,56 @@
 
 
  .gradiant{
-    
+    margin: 120px;
     padding: 120px;
+    border-radius: 10px;
     background-repeat: no-repeat;
     background-position: center;
-    text-align: left 11% ;
+    text-align: left;
     background-size: cover;
-    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(180, 95, 46, 0.73)), url(images/watch.png)
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(7, 241, 65, 0.507)), 
+    url(images/watch.png)
 
     
 }
  .gradiant-title{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center left;
+    color: rgb(5, 5, 5);
+ }
+
+ /* footer style */
+ .fotter{
+    display: flex;
+    
+    justify-content: space-around ;
+    background-color: rgb(0, 0, 0);
+    padding: 150px 100px;
+    padding-bottom: 40px;
+    
+    
+ }
+ .future-content{
+    color: rgb(245, 242, 242);
+ }
+ .future-title{
+    font-size: 40px;
+ }
+ .footer-subscribe{
+    color: white;
+    font-size: 20px;
+ }
+ .future-description{
+    font-size: 12px;
+ }
+ input{
+    border: 2px;
+    margin-top: 14px;
+    width: 100%;
+    border: 2px solid;
+    padding: 10px 30px;
+    border-radius: 5px;
+ }
+ .social-icon ,a {
+    text-decoration: none;
  }
