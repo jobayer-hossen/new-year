@@ -27,6 +27,7 @@
 }
 .header-description{
  font-size: 15px;
+ color: rgb(146, 141, 134);
 }
 /* button style */
 .button{
@@ -47,15 +48,20 @@
 
 
 .person{
-    color: rgb(59, 87, 78);
-    margin: 0 10px;
+    height: 100%;
+    margin: 20 10px;
     display: flex;
     align-items: center;
-    padding: 0 10px ;
+    padding-right: 20px;
     justify-content: space-around;
-    background-image: -o-linear-gradient(black);
     
- 
+    }
+.person-title{
+    font-size: 40px;
+    }
+.person-description{
+    font-size: 15px;
+    color: rgb(87, 85, 82);
 }
  ul{
     list-style: none;
@@ -81,6 +87,7 @@
  .plan-title{
     
     font-size: 30px;
+    
     color: rgb(31, 31, 32);
     
  }
@@ -107,7 +114,7 @@
  .gradiant-title{
     font-size: 40px;
     text-align: center left;
-    color: rgb(5, 5, 5);
+    color: white;
  }
 
  /* footer style */
@@ -141,6 +148,7 @@
     border: 2px solid;
     padding: 10px 30px;
     border-radius: 5px;
+    color: black;
  }
  .social-icon ,a {
     text-decoration: none;
